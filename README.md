@@ -1,5 +1,5 @@
 # Streamgraph Tutorial
-A tutorial for R streamgraph package: plotting trends over time. 
+A tutorial for R `streamgraph package`, an `htmlwidget` that is based on the `D3.js` JavaScript library used for plotting trends over time. 
 
 Files included: 
 * RMD file containing the tutorial 
