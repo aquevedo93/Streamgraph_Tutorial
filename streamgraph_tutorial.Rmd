@@ -135,7 +135,7 @@ brazil_fires <- read.csv('brazil_forest_fires.csv', encoding="latin1", stringsAs
 
 ```{r ggplot2movies}
 # Defining a Colorblibd-friendly palette 
-cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7", "#000000")
 
 ggplot2movies::movies%>% 
   #Select desired columns
@@ -186,7 +186,7 @@ For the purpose of this example, we will focus on the subset of states comprisin
 #Data cleaning for the streamgraphs
 
 #List of Amazon states 
-amazon_states <- c("Acre","Amapa","Pará", "Amazonas","Rondonia", "Mato Grosso","Tocantins","Maranhao")
+amazon_states <- c("Acre","Amapa","Pará", "Amazonas","Rondonia","Roraima", "Mato Grosso","Tocantins","Maranhao")
 
 brazil_fires<- brazil_fires%>% 
   #Dropping Date Column
